@@ -3,6 +3,8 @@ table, td, tr, th {
     margin: 20px;
 }
 
-a{
+.button{
+    display: inline-block;
+    padding: 0.5rem 1rem;
     text-decoration: none;
 }

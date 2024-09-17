@@ -14,7 +14,7 @@
     </header>
 
     <div class="container">
-        <section>
+        <section class="lista">
             <h2>Testando listas</h2>
             <div class="flex-container-start">
                 <div>
@@ -43,7 +43,7 @@
 
         </section>
 
-        <section>
+        <section class="tabela">
             <h3>Tabela</h3>
             <table>
                 <thead>
@@ -76,17 +76,37 @@
             </table>
         </section>
 
-        <section>
+        <section class="botao">
             <h2>Botões</h2>
             <a href="#" class="button">Botão</a>
         </section>
 
-        <section>
+        <section class="flexbox">
             <h2>Layout Flexbox</h2>
             <div class="flex-container">
                 <div class="flex-item">Item 1</div>
                 <div class="flex-item">Item 2</div>
                 <div class="flex-item">Item 3</div>
+            </div>
+        </section>
+
+        <section class="sec-log">
+            <h2>Formulario</h2>
+            <div class="card-body">
+                <h3>Formulario de Login</h3>
+                <form class="form-input">
+                    <div class="form-group">
+                        <label for="user">Usuário</label>
+                        <input type="text" name="user" id="user" placeholder="Digite seu Usuário" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+                    </div>
+
+                    <a class="button" type="submit">Enviar</a>
+                </form>
             </div>
         </section>
     </div>

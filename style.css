@@ -65,3 +65,31 @@ th{
     background-color: rgb(214, 214, 214);
 }
 
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.flex-container-start{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item{
+    background-color: aquamarine;
+    color: darkblue;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin: 0.5rem;
+}
+
+footer{
+    justify-content: center;   
+}
+
+a{
+    text-decoration: none;
+}
